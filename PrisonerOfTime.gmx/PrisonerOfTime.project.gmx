@@ -11,12 +11,24 @@
     <sprite>sprites\player_right</sprite>
     <sprite>sprites\player_up</sprite>
     <sprite>sprites\Desk</sprite>
+    <sprite>sprites\desklady_down</sprite>
+    <sprite>sprites\desklady_left</sprite>
+    <sprite>sprites\desklady_right</sprite>
+    <sprite>sprites\desklady_up</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\scr_text.gml</script>
+  </scripts>
+  <fonts name="fonts">
+    <font>fonts\fnt</font>
+  </fonts>
   <objects name="objects">
     <object>objects\Player</object>
     <object>objects\DeskObj</object>
+    <object>objects\text_obj</object>
+    <object>objects\DeskLady</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
